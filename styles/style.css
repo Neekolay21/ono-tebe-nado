@@ -1,15 +1,15 @@
 .header {
   height: 105px;
   width: 1054px;
-  margin: 92px 24px 0 24px;
+  margin: 92px 24px 0;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "menu menu logo . address";
+  grid-template-columns: 453px 333px 268px;
 }
 .header__menu {
+  width: 391.48px;
+  height: 22px;
   align-self: center;
   justify-self: center;
-  grid-area: menu;
 }
 
 .header__links-list {
@@ -29,12 +29,11 @@
 }
 
 .header__logo {
-  height: 129.11px;
-  width: 104.65px;
+  height: 105px;
+  width: 148px;
   display: flex;
-  justify-self: center;
+  justify-self: start;
   align-self: center;
-  grid-area: logo;
 }
 
 .header__logo-image {
@@ -45,7 +44,6 @@
   font-style: normal;
   justify-self: start;
   align-self: center;
-  /*grid-area: address;*/
   font-size: 18px;
   line-height: 24.3px;
 }
@@ -148,7 +146,7 @@ main {
   width: 334px;
   height: 563px;
 }
- 
+
 .card-link {
   display: block;
   width: 100%;
