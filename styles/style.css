@@ -79,25 +79,31 @@ main {
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
 }
 
-.cover__word {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+.aligned-text_left {
+  line-height: 116px;
 }
 
 .aligned-text_center {
-  justify-content: center;
+  align-self: center;
+  display: block;
+  line-height: 135px;
 }
 
 .aligned-text_right {
-  justify-content: right;
+  align-self: end;
+  display: block;
+  line-height: 104px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 20px;
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -256,7 +262,6 @@ main {
   flex-direction: column;
   justify-content: space-between;
   height: 312px;
-  width: 693px;
   margin-top: 100px;
   margin-right: 24px;
 }
@@ -267,7 +272,11 @@ main {
 }
 
 .about__text-content-start {
-  padding-right: 5px;
+  width: 688px;
+}
+
+.about__text-content-end {
+  width: 693px; 
 }
 
 .footer {
